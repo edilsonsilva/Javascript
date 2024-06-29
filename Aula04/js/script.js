@@ -1,4 +1,3 @@
-var pos = 1;
 function esquerda(){
     if(pos <=1){
         pos = 1;
@@ -19,3 +18,7 @@ function direita(){
     document.getElementById("foto").innerHTML="<img src=img/foto"+pos+".jpg>";
     
 }
+
+
+
+
